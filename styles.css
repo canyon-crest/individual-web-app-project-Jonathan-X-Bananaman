@@ -1,1 +1,50 @@
 /* Add Global styles here */
+header nav{
+    background-color: yellow;    
+}
+header nav ul{
+        color: rgb(100, 64, 0);
+        list-style: none;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+header nav ul li{
+    font-size: 20px;
+    padding:10px;
+    margin-left:5px;
+    margin-right:5px;
+}
+header{
+    margin:none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer{
+    background-color: darkgoldenrod;
+}
+footer p{
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    font-size: 15px;
+    margin: auto;
+    padding: 20px;
+    color:yellow;
+}
+
+main{
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    padding: 20px;
+}
